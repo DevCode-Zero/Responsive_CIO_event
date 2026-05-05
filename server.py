@@ -9,6 +9,9 @@ import os
 import importlib.util
 import ssl
 import certifi
+from dotenv import load_dotenv
+
+load_dotenv(".env.local")
 
 PORT = 5002
 
